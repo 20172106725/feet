@@ -56,7 +56,7 @@ CMyfeet::CMyfeet()
 {
 	cout << "派生类默认构造函数" << feet << "英尺" << inches << "英寸" << endl;
 }
-CMyfeet::CMyfeet(int f, int i)//:CFeet(f,i)
+CMyfeet::CMyfeet(int f, int i):CFeet(f,i)
 {
 	cout << "派生类构造函数" << feet << "英尺" << inches << "英寸" << endl;
 }
